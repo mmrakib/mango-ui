@@ -1,4 +1,4 @@
-<img src="public/mango.svg" width="25%" height="25%" alt="mango-icon" />
+<img src="public/mango.svg" width="15%" height="15%" alt="mango-icon" />
 
 
 This is *Mango UI*.
