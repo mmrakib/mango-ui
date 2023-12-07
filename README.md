@@ -1,10 +1,12 @@
+![Mango Icon](./public/mango.svg)
+
 This is *Mango UI*.
 
-It is a personalized React components/template library. 
+It's a personalized React components/template library.
 
-I made it so I can reuse React components I've made and liked across all my projects.
+I made it so I can reuse React components I've made/liked across all of my projects. It saves me a bit of copy-pasting.
 
-For this reason, this library is opinionated and any design choices are made to suit my workflow.
+NOTE: I made this library primarily for my own personal use, so it is highly opinionated and any and all design choices are made to suit my workflow.
 
 The following is a table of components I have implemented:
 
