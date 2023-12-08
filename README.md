@@ -9,7 +9,4 @@ I made it so I can reuse React components I've made/liked across all of my proje
 
 NOTE: I made this library primarily for my own personal use, so it is highly opinionated and all design choices are made to suit my workflow.
 
-Here is a list of components I have implemented:
-
-Here is a list of components I want to implement:
-* Button - a regular button
+The color palette is inspired by [Atlassian's color palette.](https://atlassian.design/foundations/color-new/color-palette-new)
