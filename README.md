@@ -9,8 +9,7 @@ I made it so I can reuse React components I've made/liked across all of my proje
 
 NOTE: I made this library primarily for my own personal use, so it is highly opinionated and all design choices are made to suit my workflow.
 
-The following is a table of components I have implemented:
+Here is a list of components I have implemented:
 
-| Name | Component | Props | Description |
-|------|-----------|-------|-------------|
-|      |           |       |             |
+Here is a list of components I want to implement:
+* Button - a regular button
