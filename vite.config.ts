@@ -6,6 +6,11 @@ import dts from 'vite-plugin-dts'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  server: {
+    watch: {
+      usePolling: true
+    }
+  },
   plugins: [react(), dts({ include: ['lib'] })],
   build: {
     lib: {
