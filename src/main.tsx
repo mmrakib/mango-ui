@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client'
 import Canvas from './Canvas.tsx'
 import { createGlobalStyle } from 'styled-components'
 
-import { Button } from '../lib/main.tsx'
+import { GithubButton } from '../lib/main.tsx'
 
 const GlobalStyle = createGlobalStyle`
   body, html {
@@ -18,7 +18,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <GlobalStyle />
     <Canvas>
-      <Button>This is a button.</Button>
+      <GithubButton>This is a button</GithubButton>
     </Canvas>
   </React.StrictMode>,
 )

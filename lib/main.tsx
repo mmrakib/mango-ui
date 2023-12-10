@@ -1,8 +1,8 @@
 // import Component from './path/to/component.tsx'
 // export { Component, ... }
 
-import Button from './Button.tsx'
+import GithubButton from './Buttons/GithubButton.tsx'
 
 export {
-    Button
+    GithubButton
 }
