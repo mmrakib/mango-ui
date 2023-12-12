@@ -1,13 +1,16 @@
 import React from 'react'
 import styled from 'styled-components'
+import {
+    Neutral800
+} from '../colors.tsx'
 
 interface ButtonProps {
     children: React.ReactNode
 }
 
 const StyledInvertedButton = styled.button`
-    background: #FF4742;
-    border: 1px solid #FF4742;
+    background: ${Neutral800};
+    border: 1px solid ${Neutral800};
     border-radius: 6px;
     box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
     box-sizing: border-box;
@@ -33,7 +36,7 @@ const StyledInvertedButton = styled.button`
     &:active {
         background-color: initial;
         background-position: 0 0;
-        color: #FF4742;
+        color: ${Neutral800};
     }
 
     &:active {
