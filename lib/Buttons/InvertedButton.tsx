@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import {
     Neutral800
 } from '../colors.tsx'
+import { LoadFontLato } from '../fonts.tsx'
 
 interface ButtonProps {
     children: React.ReactNode
@@ -17,7 +18,7 @@ const StyledInvertedButton = styled.button`
     color: #FFFFFF;
     cursor: pointer;
     display: inline-block;
-    font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+    font-family: "Lato",nunito,roboto,proxima-nova,"proxima nova",sans-serif;
     font-size: 16px;
     font-weight: 800;
     line-height: 16px;
@@ -51,6 +52,7 @@ function InvertedButton({ children }: ButtonProps) {
 
     return (
         <>
+            <LoadFontLato />
             <StyledInvertedButton onClick={handleClick}>
                 {children}
             </StyledInvertedButton>
